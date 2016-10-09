@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#fff"/>
+  <g>
+    <text x="18.723" y="159.214" fill="#60b5cc" font-size="167.192" font-family="Source Sans Pro">
+      <tspan x="18.723" y="159.214">I</tspan>
+    </text>
+    <text x="282.543" y="157.208" fill="#60b5cc" font-size="167.192" font-family="Source Sans Pro">
+      <tspan x="282.543" y="157.208">elm</tspan>
+    </text>
+    <g>
+      <polygon fill="#5a6378" points="188.812 83.357 138.279 32.824 87.746 83.357 188.812 83.357"/>
+      <polygon fill="#60b5cc" points="135.779 88.357 87.746 88.357 135.779 136.389 135.779 88.357"/>
+      <polygon fill="#60b5cc" points="245.382 88.357 144.316 88.357 194.849 138.891 245.382 88.357"/>
+      <polygon fill="#7fd13b" points="222.097 60.074 172.599 60.074 195.884 83.357 245.382 83.357 222.097 60.074"/>
+      <polygon fill="#7fd13b" points="191.312 142.426 166.564 117.678 141.816 142.426 166.564 167.176 191.312 142.426"/>
+      <polygon fill="#f0ad00" points="163.029 114.143 140.779 91.893 140.779 136.391 163.029 114.143"/>
+      <polygon fill="#f0ad00" points="217.097 55.074 194.849 32.824 172.599 55.074 217.097 55.074"/>
+    </g>
+  </g>
+</svg>
