@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <polygon fill="#5a6378" points="106 114.484 106 385.516 241.516 250">
+    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 151.172 250" to="-90 151.172 250" dur="1s"/>
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="89.272 23.828" dur="1s" additive="sum"/>
+  </polygon>
+  <polygon fill="#60b5cc" points="264.484 106 394 235.516 394 106">
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="-225 112.5" dur="1s"/>
+  </polygon>
+  <polygon fill="#60b5cc" points="250 258.484 114.484 394 385.516 394">
+    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 348.828" to="-180 250 348.828" dur="1s"/>
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="-75 85.156" dur="1s" additive="sum"/>
+  </polygon>
+  <polygon fill="#7fd13b" points="114.484 106 177.484 169 310.516 169 247.516 106">
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="150 37.5" dur="1s"/>
+  </polygon>
+  <polygon fill="#7fd13b" points="325 183.484 258.484 250 325 316.516 391.516 250">
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="-75 112" dur="1s"/>
+  </polygon>
+  <polygon fill="#f0ad00" points="189.484 181 250 241.516 310.516 181">
+    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 201.172" to="180 250 201.172" dur="1s"/>
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="-75 89.844" dur="1s" additive="sum"/>
+  </polygon>
+  <polygon fill="#f0ad00" points="394 264.484 333.484 325 394 385.516">
+    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 373.828 325" to="-180 373.828 325" dur="1s"/>
+    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="172.656 37.5" dur="1s" additive="sum"/>
+  </polygon>
+</svg>
