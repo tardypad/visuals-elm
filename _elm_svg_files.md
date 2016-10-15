@@ -1,6 +1,0 @@
-- [elm_logo_color.svg](#file-elm_logo_color-svg)
-- [elm_logo_monochrome.svg](#file-elm_logo_monochrome-svg)
-- [elm_heart_color.svg](#file-elm_heart_color-svg)
-- [elm_heart_monochrome.svg](#file-elm_heart_monochrome-svg)
-- [elm_i_love_color.svg](#file-elm_i_love_color-svg)
-- [elm_i_love_monochrome.svg](#file-elm_i_love_monochrome-svg)
