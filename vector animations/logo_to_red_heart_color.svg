@@ -9,7 +9,7 @@
     <animate attributeName="fill" to="#ff0000" fill="freeze" begin="1s" dur="1s"/>
   </polygon>
   <polygon fill="#60b5cc" points="250 258.484 114.484 394 385.516 394">
-    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 348.828" to="-180 250 348.828" dur="1s"/>
+    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 348.828" to="180 250 348.828" dur="1s"/>
     <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="-75 85.156" dur="1s" additive="sum"/>
     <animate attributeName="fill" to="#ff0000" fill="freeze" begin="1s" dur="1s"/>
   </polygon>
