@@ -10,6 +10,8 @@ A collection of visuals for the [Elm](http://elm-lang.org/) language.
 
 Color and monochrome versions are available for each graphic.
 
+![Logo to heart](/raster animations/logo_to_heart_color.gif?raw=true "Logo to heart")
+
 
 License
 -------
