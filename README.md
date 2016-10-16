@@ -3,10 +3,10 @@ Visuals for Elm
 
 A collection of visuals for the [Elm](http://elm-lang.org/) language.
 
-- vector images (SVG format)
-- raster images (PNG format)
-- vector animations (SVG format)
-- raster animations (GIF format)
+- [vector images](/vector images) (SVG format)
+- [raster images](/raster images) (PNG format)
+- [vector animations](/vector animations) (SVG format)
+- [raster animations](/raster animations) (GIF format)
 
 Color and monochrome versions are available for each graphic.
 
