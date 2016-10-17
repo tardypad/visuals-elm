@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+  <rect width="560" height="200" fill="#60b5cc"/>
+  <text x="23.912" y="128.57" fill="#fff" font-size="81.628" font-family="Source Sans Pro">
+    <tspan x="23.912" y="128.57">Made with</tspan>
+  </text>
+  <g transform="matrix(.333 0 0 .333 377.83 16.75)" fill="#5a6378">
+    <polygon points="175 70.984 39.486 206.5 310.516 206.5"/>
+    <polygon points="39.484 218.5 169 348.016 169 218.5"/>
+    <polygon points="189.484 218.5 325 354.016 460.514 218.5"/>
+    <polygon points="264.484 143.5 327.484 206.5 460.516 206.5 397.516 143.5"/>
+    <polygon points="250 295.984 183.484 362.5 250 429.016 316.516 362.5"/>
+    <polygon points="325 70.984 264.484 131.5 385.516 131.5"/>
+    <polygon points="181 226.984 181 348.016 241.516 287.5"/>
+  </g>
+</svg>
