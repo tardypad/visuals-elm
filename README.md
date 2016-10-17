@@ -13,6 +13,8 @@ Color and monochrome versions are available for each graphic.
 
 ![Logo to heart](/raster animations/logo_to_heart_color.gif?raw=true "Logo to heart")
 
+![Made with elm](/raster animations/made_with_logo_to_red_heart_monochrome.gif?raw=true "Made with elm")
+
 
 License
 -------
