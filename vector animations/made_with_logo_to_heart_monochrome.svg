@@ -44,48 +44,48 @@
 
     @-webkit-keyframes move-triangle-big-dark-blue {
       to {
-	transform-origin: 173.758px 250px;
-	transform: rotate(-90deg) translate(111.258px, 1.244px);
-	-webkit-transform: rotate(-90deg) translate(111.258px, 1.244px);
+        transform-origin: 173.758px 250px;
+        transform: rotate(-90deg) translate(111.258px, 1.244px);
+        -webkit-transform: rotate(-90deg) translate(111.258px, 1.244px);
       }
     }
     @-webkit-keyframes move-triangle-medium-blue {
       to {
-	transform: translate(-225px, 112.5px);
-	-webkit-transform: translate(-225px, 112.5px);
+        transform: translate(-225px, 112.5px);
+        -webkit-transform: translate(-225px, 112.5px);
       }
     }
     @-webkit-keyframes move-triangle-big-blue {
       to {
-	transform-origin: 250px 326.242px;
-	transform: rotate(-180deg) translate(-75px, 39.984px);
-	-webkit-transform: rotate(-180deg) translate(-75px, 39.984px);
+        transform-origin: 250px 326.242px;
+        transform: rotate(-180deg) translate(-75px, 39.984px);
+        -webkit-transform: rotate(-180deg) translate(-75px, 39.984px);
       }
     }
     @-webkit-keyframes move-parallelogram-green {
       to {
-	transform: translate(150px, 37.5px);
-	-webkit-transform: translate(150px, 37.5px);
+        transform: translate(150px, 37.5px);
+        -webkit-transform: translate(150px, 37.5px);
       }
     }
     @-webkit-keyframes move-square-green {
       to {
-	transform: translate(-75px, 112.5px);
-	-webkit-transform: translate(-75px, 112.5px);
+        transform: translate(-75px, 112.5px);
+        -webkit-transform: translate(-75px, 112.5px);
       }
     }
     @-webkit-keyframes move-triangle-small-orange-left {
       to {
-	transform-origin: 250px 211.258px;
-	transform: translate(-38.742px, 76.242px) rotate(-90deg);
-	-webkit-transform: translate(-38.742px, 76.242px) rotate(-90deg);
+        transform-origin: 250px 211.258px;
+        transform: translate(-38.742px, 76.242px) rotate(-90deg);
+        -webkit-transform: translate(-38.742px, 76.242px) rotate(-90deg);
       }
     }
     @-webkit-keyframes move-triangle-small-orange-right {
       to {
-	transform-origin: 363.742px 325px;
- 	transform: translate(-38.742px, -223.758px) rotate(90deg);
-	-webkit-transform: translate(-38.742px, -223.758px) rotate(90deg);
+        transform-origin: 363.742px 325px;
+         transform: translate(-38.742px, -223.758px) rotate(90deg);
+        -webkit-transform: translate(-38.742px, -223.758px) rotate(90deg);
       }
     }
   </style>
