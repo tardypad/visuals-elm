@@ -9,7 +9,6 @@ A collection of visuals for the [Elm](http://elm-lang.org/) language.
 - [raster images](/raster images) (PNG format)
 - [vector animations](/vector animations) (SVG format)
 - [raster animations](/raster animations) (GIF format)
-- [interactions](/interactions) (HTML/SVG format)
 
 Color and monochrome versions are available for each graphic.
 
