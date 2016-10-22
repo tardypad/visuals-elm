@@ -1,28 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="#5a6378">
-  <polygon points="106 114.484 106 385.516 241.516 250">
-    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 151.172 250" to="-90 151.172 250" dur="1s"/>
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="89.272 23.828" dur="1s" additive="sum"/>
-  </polygon>
-  <polygon points="264.484 106 394 235.516 394 106">
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="-225 112.5" dur="1s"/>
-  </polygon>
-  <polygon points="250 258.484 114.484 394 385.516 394">
-    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 348.828" to="180 250 348.828" dur="1s"/>
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="-75 85.156" dur="1s" additive="sum"/>
-  </polygon>
-  <polygon points="114.484 106 177.484 169 310.516 169 247.516 106">
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="150 37.5" dur="1s"/>
-  </polygon>
-  <polygon points="325 183.484 258.484 250 325 316.516 391.516 250">
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" to="-75 112" dur="1s"/>
-  </polygon>
-  <polygon points="189.484 181 250 241.516 310.516 181">
-    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 250 201.172" to="180 250 201.172" dur="1s"/>
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="-75 89.844" dur="1s" additive="sum"/>
-  </polygon>
-  <polygon points="394 264.484 333.484 325 394 385.516">
-    <animateTransform attributeName="transform" fill="freeze" type="rotate" begin="1s" from="0 373.828 325" to="-180 373.828 325" dur="1s"/>
-    <animateTransform attributeName="transform" fill="freeze" type="translate" begin="1s" from="0 0" to="172.656 37.5" dur="1s" additive="sum"/>
-  </polygon>
-  <animate attributeName="fill" to="#e62a2a" fill="freeze" begin="1s" dur="1s"/>
+<svg id="logo-to-red-heart-monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="#5a6378">
+  <style type="text/css">
+    #logo-to-red-heart-monochrome polygon {
+      animation-delay: 1s;
+      -webkit-animation-delay: 1s;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      transform-origin: 50% 50%;
+      -webkit-transform-origin: 50% 50%;
+    }
+
+    @-webkit-keyframes color {
+      to {
+	fill: #e62a2a;
+      }
+    }
+
+    #triangle-big-dark-blue {
+      animation-name: move-triangle-big-dark-blue, color;
+      -webkit-animation-name: move-triangle-big-dark-blue, color;
+    }
+    #triangle-medium-blue {
+      animation-name: move-triangle-medium-blue, color;
+      -webkit-animation-name: move-triangle-medium-blue, color;
+    }
+    #triangle-big-blue {
+      animation-name: move-triangle-big-blue, color;
+      -webkit-animation-name: move-triangle-big-blue, color;
+    }
+    #parallelogram-green {
+      animation-name: move-parallelogram-green, color;
+      -webkit-animation-name: move-parallelogram-green, color;
+    }
+    #square-green {
+      animation-name: move-square-green, color;
+      -webkit-animation-name: move-square-green, color;
+    }
+    #triangle-small-orange-left  {
+      animation-name: move-triangle-small-orange-left, color;
+      -webkit-animation-name: move-triangle-small-orange-left, color;
+    }
+    #triangle-small-orange-right {
+      animation-name: move-triangle-small-orange-right, color;
+      -webkit-animation-name: move-triangle-small-orange-right, color;
+    }
+
+    @-webkit-keyframes move-triangle-big-dark-blue {
+      to {
+	transform-origin: 173.758px 250px;
+	transform: rotate(-90deg) translate(111.258px, 1.244px);
+	-webkit-transform: rotate(-90deg) translate(111.258px, 1.244px);
+      }
+    }
+    @-webkit-keyframes move-triangle-medium-blue {
+      to {
+	transform: translate(-225px, 112.5px);
+	-webkit-transform: translate(-225px, 112.5px);
+      }
+    }
+    @-webkit-keyframes move-triangle-big-blue {
+      to {
+	transform-origin: 250px 326.242px;
+	transform: rotate(-180deg) translate(-75px, 39.984px);
+	-webkit-transform: rotate(-180deg) translate(-75px, 39.984px);
+      }
+    }
+    @-webkit-keyframes move-parallelogram-green {
+      to {
+	transform: translate(150px, 37.5px);
+	-webkit-transform: translate(150px, 37.5px);
+      }
+    }
+    @-webkit-keyframes move-square-green {
+      to {
+	transform: translate(-75px, 112.5px);
+	-webkit-transform: translate(-75px, 112.5px);
+      }
+    }
+    @-webkit-keyframes move-triangle-small-orange-left {
+      to {
+	transform-origin: 250px 211.258px;
+	transform: translate(-38.742px, 76.242px) rotate(-90deg);
+	-webkit-transform: translate(-38.742px, 76.242px) rotate(-90deg);
+      }
+    }
+    @-webkit-keyframes move-triangle-small-orange-right {
+      to {
+	transform-origin: 363.742px 325px;
+ 	transform: translate(-38.742px, -223.758px) rotate(90deg);
+	-webkit-transform: translate(-38.742px, -223.758px) rotate(90deg);
+      }
+    }
+  </style>
+  <polygon id="triangle-big-dark-blue" points="106 114.484 106 385.516 241.516 250"/>
+  <polygon id="triangle-medium-blue" points="264.484 106 394 235.516 394 106"/>
+  <polygon id="triangle-big-blue" points="250 258.484 114.484 394 385.516 394"/>
+  <polygon id="parallelogram-green" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
+  <polygon id="square-green" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
+  <polygon id="triangle-small-orange-left" points="189.484 181 250 241.516 310.516 181"/>
+  <polygon id="triangle-small-orange-right" points="394 264.484 333.484 325 394 385.516"/>
 </svg>
