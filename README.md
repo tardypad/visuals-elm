@@ -19,7 +19,7 @@ Color and monochrome versions are available for each graphic.
 License
 -------
 
-All the materials are released under Creative Commons CC-BY-4.0  
+All the materials are released to the public domain under Creative Commons CC0-1.0  
 See the [LICENSE](LICENSE) file
 
 
