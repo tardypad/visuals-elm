@@ -1,79 +1,41 @@
 <svg id="logo-to-red-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <style type="text/css">
     #logo-to-red-heart-color polygon {
-      animation-delay: 1s;
-      animation-timing-function: ease-in-out;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
+      transition-duration: 600ms;
+      transition-timing-function: ease-in-out;
       transform-origin: 50% 50%;
     }
-
-    @keyframes color {
-      to {
-        fill: #e62a2a;
-      }
+    #logo-to-red-heart-color:hover #triangle-big-dark-blue {
+      transform-origin: 173.758px 250px;
+      transform: rotate(-90deg) translate(111.258px, 1.244px);
+      fill: #e62a2a;
     }
-
-    #triangle-big-dark-blue {
-      animation-name: move-triangle-big-dark-blue, color;
+    #logo-to-red-heart-color:hover #triangle-medium-blue {
+      transform: translate(-225px, 112.5px);
+      fill: #e62a2a;
     }
-    #triangle-medium-blue {
-      animation-name: move-triangle-medium-blue, color;
+    #logo-to-red-heart-color:hover #triangle-big-blue {
+      transform-origin: 250px 326.242px;
+      transform: rotate(-180deg) translate(-75px, 39.984px);
+      fill: #e62a2a;
     }
-    #triangle-big-blue {
-      animation-name: move-triangle-big-blue, color;
+    #logo-to-red-heart-color:hover #parallelogram-green {
+      transform: translate(150px, 37.5px);
+      fill: #e62a2a;
     }
-    #parallelogram-green {
-      animation-name: move-parallelogram-green, color;
+    #logo-to-red-heart-color:hover #square-green {
+      transform: translate(-75px, 112.5px);
+      fill: #e62a2a;
     }
-    #square-green {
-      animation-name: move-square-green, color;
+    #logo-to-red-heart-color:hover #triangle-small-orange-left  {
+      transform-origin: 250px 211.258px;
+      transform: translate(-38.742px, 76.242px) rotate(-90deg);
+      fill: #e62a2a;
     }
-    #triangle-small-orange-left  {
-      animation-name: move-triangle-small-orange-left, color;
-    }
-    #triangle-small-orange-right {
-      animation-name: move-triangle-small-orange-right, color;
-    }
-
-    @keyframes move-triangle-big-dark-blue {
-      to {
-        transform-origin: 173.758px 250px;
-        transform: rotate(-90deg) translate(111.258px, 1.244px);
-      }
-    }
-    @keyframes move-triangle-medium-blue {
-      to {
-        transform: translate(-225px, 112.5px);
-      }
-    }
-    @keyframes move-triangle-big-blue {
-      to {
-        transform-origin: 250px 326.242px;
-        transform: rotate(-180deg) translate(-75px, 39.984px);
-      }
-    }
-    @keyframes move-parallelogram-green {
-      to {
-        transform: translate(150px, 37.5px);
-      }
-    }
-    @keyframes move-square-green {
-      to {
-        transform: translate(-75px, 112.5px);
-      }
-    }
-    @keyframes move-triangle-small-orange-left {
-      to {
-        transform-origin: 250px 211.258px;
-        transform: translate(-38.742px, 76.242px) rotate(-90deg);
-      }
-    }
-    @keyframes move-triangle-small-orange-right {
-      to {
-        transform-origin: 363.742px 325px;
-         transform: translate(-38.742px, -223.758px) rotate(90deg);
-      }
+    #logo-to-red-heart-color:hover #triangle-small-orange-right {
+      transform-origin: 363.742px 325px;
+      transform: translate(-38.742px, -223.758px) rotate(90deg);
+      fill: #e62a2a;
     }
   </style>
   <polygon id="triangle-big-dark-blue" fill="#5a6378" points="106 114.484 106 385.516 241.516 250"/>

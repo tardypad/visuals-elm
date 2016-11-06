@@ -1,73 +1,34 @@
 <svg id="made-with-logo-to-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
   <style type="text/css">
     #made-with-logo-to-heart-color polygon {
-      animation-delay: 1s;
-      animation-timing-function: ease-in-out;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
+      transition-duration: 600ms;
+      transition-timing-function: ease-in-out;
       transform-origin: 50% 50%;
     }
-
-    #triangle-big-dark-blue {
-      animation-name: move-triangle-big-dark-blue;
+    #made-with-logo-to-heart-color:hover #triangle-big-dark-blue {
+      transform-origin: 173.758px 250px;
+      transform: rotate(-90deg) translate(111.258px, 1.244px);
     }
-    #triangle-medium-blue {
-      animation-name: move-triangle-medium-blue;
+    #made-with-logo-to-heart-color:hover #triangle-medium-blue {
+      transform: translate(-225px, 112.5px);
     }
-    #triangle-big-blue {
-      animation-name: move-triangle-big-blue;
+    #made-with-logo-to-heart-color:hover #triangle-big-blue {
+      transform-origin: 250px 326.242px;
+      transform: rotate(-180deg) translate(-75px, 39.984px);
     }
-    #parallelogram-green {
-      animation-name: move-parallelogram-green;
+    #made-with-logo-to-heart-color:hover #parallelogram-green {
+      transform: translate(150px, 37.5px);
     }
-    #square-green {
-      animation-name: move-square-green;
+    #made-with-logo-to-heart-color:hover #square-green {
+      transform: translate(-75px, 112.5px);
     }
-    #triangle-small-orange-left  {
-      animation-name: move-triangle-small-orange-left;
+    #made-with-logo-to-heart-color:hover #triangle-small-orange-left  {
+      transform-origin: 250px 211.258px;
+      transform: translate(-38.742px, 76.242px) rotate(-90deg);
     }
-    #triangle-small-orange-right {
-      animation-name: move-triangle-small-orange-right;
-    }
-
-    @keyframes move-triangle-big-dark-blue {
-      to {
-        transform-origin: 173.758px 250px;
-        transform: rotate(-90deg) translate(111.258px, 1.244px);
-      }
-    }
-    @keyframes move-triangle-medium-blue {
-      to {
-        transform: translate(-225px, 112.5px);
-      }
-    }
-    @keyframes move-triangle-big-blue {
-      to {
-        transform-origin: 250px 326.242px;
-        transform: rotate(-180deg) translate(-75px, 39.984px);
-      }
-    }
-    @keyframes move-parallelogram-green {
-      to {
-        transform: translate(150px, 37.5px);
-      }
-    }
-    @keyframes move-square-green {
-      to {
-        transform: translate(-75px, 112.5px);
-      }
-    }
-    @keyframes move-triangle-small-orange-left {
-      to {
-        transform-origin: 250px 211.258px;
-        transform: translate(-38.742px, 76.242px) rotate(-90deg);
-      }
-    }
-    @keyframes move-triangle-small-orange-right {
-      to {
-        transform-origin: 363.742px 325px;
-         transform: translate(-38.742px, -223.758px) rotate(90deg);
-      }
+    #made-with-logo-to-heart-color:hover #triangle-small-orange-right {
+      transform-origin: 363.742px 325px;
+      transform: translate(-38.742px, -223.758px) rotate(90deg);
     }
   </style>
   <rect width="560" height="200" fill="#fff"/>
