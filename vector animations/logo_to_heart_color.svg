@@ -2,90 +2,71 @@
   <style type="text/css">
     #logo-to-heart-color polygon {
       animation-delay: 1s;
-      -webkit-animation-delay: 1s;
       animation-timing-function: ease-in-out;
-      -webkit-animation-timing-function: ease-in-out;
       animation-duration: 1s;
-      -webkit-animation-duration: 1s;
       animation-fill-mode: forwards;
-      -webkit-animation-fill-mode: forwards;
       transform-origin: 50% 50%;
-      -webkit-transform-origin: 50% 50%;
     }
 
     #triangle-big-dark-blue {
       animation-name: move-triangle-big-dark-blue;
-      -webkit-animation-name: move-triangle-big-dark-blue;
     }
     #triangle-medium-blue {
       animation-name: move-triangle-medium-blue;
-      -webkit-animation-name: move-triangle-medium-blue;
     }
     #triangle-big-blue {
       animation-name: move-triangle-big-blue;
-      -webkit-animation-name: move-triangle-big-blue;
     }
     #parallelogram-green {
       animation-name: move-parallelogram-green;
-      -webkit-animation-name: move-parallelogram-green;
     }
     #square-green {
       animation-name: move-square-green;
-      -webkit-animation-name: move-square-green;
     }
     #triangle-small-orange-left  {
       animation-name: move-triangle-small-orange-left;
-      -webkit-animation-name: move-triangle-small-orange-left;
     }
     #triangle-small-orange-right {
       animation-name: move-triangle-small-orange-right;
-      -webkit-animation-name: move-triangle-small-orange-right;
     }
 
-    @-webkit-keyframes move-triangle-big-dark-blue {
+    @keyframes move-triangle-big-dark-blue {
       to {
         transform-origin: 173.758px 250px;
         transform: rotate(-90deg) translate(111.258px, 1.244px);
-        -webkit-transform: rotate(-90deg) translate(111.258px, 1.244px);
       }
     }
-    @-webkit-keyframes move-triangle-medium-blue {
+    @keyframes move-triangle-medium-blue {
       to {
         transform: translate(-225px, 112.5px);
-        -webkit-transform: translate(-225px, 112.5px);
       }
     }
-    @-webkit-keyframes move-triangle-big-blue {
+    @keyframes move-triangle-big-blue {
       to {
         transform-origin: 250px 326.242px;
         transform: rotate(-180deg) translate(-75px, 39.984px);
-        -webkit-transform: rotate(-180deg) translate(-75px, 39.984px);
       }
     }
-    @-webkit-keyframes move-parallelogram-green {
+    @keyframes move-parallelogram-green {
       to {
         transform: translate(150px, 37.5px);
-        -webkit-transform: translate(150px, 37.5px);
       }
     }
-    @-webkit-keyframes move-square-green {
+    @keyframes move-square-green {
       to {
         transform: translate(-75px, 112.5px);
-        -webkit-transform: translate(-75px, 112.5px);
       }
     }
-    @-webkit-keyframes move-triangle-small-orange-left {
+    @keyframes move-triangle-small-orange-left {
       to {
         transform-origin: 250px 211.258px;
         transform: translate(-38.742px, 76.242px) rotate(-90deg);
-        -webkit-transform: translate(-38.742px, 76.242px) rotate(-90deg);
       }
     }
-    @-webkit-keyframes move-triangle-small-orange-right {
+    @keyframes move-triangle-small-orange-right {
       to {
         transform-origin: 363.742px 325px;
          transform: translate(-38.742px, -223.758px) rotate(90deg);
-        -webkit-transform: translate(-38.742px, -223.758px) rotate(90deg);
       }
     }
   </style>
