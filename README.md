@@ -29,6 +29,8 @@ All the materials are released to the public domain under Creative Commons CC0-1
 See the [LICENSE](LICENSE) file
 
 
+![I love elm](/raster images/i_love_color.png?raw=true "I love elm")
+
 Contributions are welcome.
 
 Enjoy!
