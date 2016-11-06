@@ -12,6 +12,13 @@ A collection of visuals for the [Elm](http://elm-lang.org/) language.
 
 Color and monochrome versions are available for each graphic.
 
+
+Animations usage
+----------------
+
+Some of the vector animations can be viewed in the [Github pages](https://tardypad.github.io/visuals-elm/).  
+Their code is available in the [docs](/docs) folder.
+
 ![Made with elm](/raster animations/made_with_logo_to_red_heart_monochrome.gif?raw=true "Made with elm")
 
 
