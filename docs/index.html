@@ -3,230 +3,265 @@
   <head>
     <meta charset="utf-8">
     <title>Made with Elm</title>
-    <style>
-      div + div {
-        margin-top: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div style="width:224px; height:80px">
-      <a href="http://elm-lang.org">
-        <svg id="made-with-logo-to-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
-          <style type="text/css">
-            #made-with-logo-to-heart-color polygon {
-              transition-duration: 600ms;
-              transition-timing-function: ease-in-out;
-              transform-origin: 50% 50%;
-            }
-            #made-with-logo-to-heart-color:hover #triangle-big-dark-blue {
-              transform-origin: 173.758px 250px;
-              transform: rotate(-90deg) translate(111.258px, 1.244px);
-            }
-            #made-with-logo-to-heart-color:hover #triangle-medium-blue {
-              transform: translate(-225px, 112.5px);
-            }
-            #made-with-logo-to-heart-color:hover #triangle-big-blue {
-              transform-origin: 250px 326.242px;
-              transform: rotate(-180deg) translate(-75px, 39.984px);
-            }
-            #made-with-logo-to-heart-color:hover #parallelogram-green {
-              transform: translate(150px, 37.5px);
-            }
-            #made-with-logo-to-heart-color:hover #square-green {
-              transform: translate(-75px, 112.5px);
-            }
-            #made-with-logo-to-heart-color:hover #triangle-small-orange-left  {
-              transform-origin: 250px 211.258px;
-              transform: translate(-38.742px, 76.242px) rotate(-90deg);
-            }
-            #made-with-logo-to-heart-color:hover #triangle-small-orange-right {
-              transform-origin: 363.742px 325px;
-              transform: translate(-38.742px, -223.758px) rotate(90deg);
-            }
-          </style>
-          <rect width="560" height="200" fill="#fff"/>
-          <text x="23.912" y="128.57" fill="#60b5cc" font-size="81.628" font-family="Source Sans Pro">
-            <tspan x="23.912" y="128.57">Made with</tspan>
-          </text>
-          <g transform="matrix(.333 0 0 .333 377.83 16.75)">
-            <polygon id="triangle-big-dark-blue" fill="#5a6378" points="106 114.484 106 385.516 241.516 250"/>
-            <polygon id="triangle-medium-blue" fill="#60b5cc" points="264.484 106 394 235.516 394 106"/>
-            <polygon id="triangle-big-blue" fill="#60b5cc" points="250 258.484 114.484 394 385.516 394"/>
-            <polygon id="parallelogram-green" fill="#7fd13b" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
-            <polygon id="square-green" fill="#7fd13b" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
-            <polygon id="triangle-small-orange-left" fill="#f0ad00" points="189.484 181 250 241.516 310.516 181"/>
-            <polygon id="triangle-small-orange-right" fill="#f0ad00" points="394 264.484 333.484 325 394 385.516"/>
-          </g>
-        </svg>
-      </a>
+    <div>
+      <div class="item">
+        <div id="main-made-with-logo-to-heart-color">
+          <a href="http://elm-lang.org">
+            <svg id="made-with-logo-to-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+              <style type="text/css">
+                #made-with-logo-to-heart-color polygon {
+                  transition-duration: 600ms;
+                  transition-timing-function: ease-in-out;
+                  transform-origin: 50% 50%;
+                }
+                #made-with-logo-to-heart-color:hover #triangle-big-dark-blue {
+                  transform-origin: 173.758px 250px;
+                  transform: rotate(-90deg) translate(111.258px, 1.244px);
+                }
+                #made-with-logo-to-heart-color:hover #triangle-medium-blue {
+                  transform: translate(-225px, 112.5px);
+                }
+                #made-with-logo-to-heart-color:hover #triangle-big-blue {
+                  transform-origin: 250px 326.242px;
+                  transform: rotate(-180deg) translate(-75px, 39.984px);
+                }
+                #made-with-logo-to-heart-color:hover #parallelogram-green {
+                  transform: translate(150px, 37.5px);
+                }
+                #made-with-logo-to-heart-color:hover #square-green {
+                  transform: translate(-75px, 112.5px);
+                }
+                #made-with-logo-to-heart-color:hover #triangle-small-orange-left  {
+                  transform-origin: 250px 211.258px;
+                  transform: translate(-38.742px, 76.242px) rotate(-90deg);
+                }
+                #made-with-logo-to-heart-color:hover #triangle-small-orange-right {
+                  transform-origin: 363.742px 325px;
+                  transform: translate(-38.742px, -223.758px) rotate(90deg);
+                }
+              </style>
+              <rect width="560" height="200" fill="#fff"/>
+              <text x="23.912" y="128.57" fill="#60b5cc" font-size="81.628" font-family="Source Sans Pro">
+                <tspan x="23.912" y="128.57">Made with</tspan>
+              </text>
+              <g transform="matrix(.333 0 0 .333 377.83 16.75)">
+                <polygon id="triangle-big-dark-blue" fill="#5a6378" points="106 114.484 106 385.516 241.516 250"/>
+                <polygon id="triangle-medium-blue" fill="#60b5cc" points="264.484 106 394 235.516 394 106"/>
+                <polygon id="triangle-big-blue" fill="#60b5cc" points="250 258.484 114.484 394 385.516 394"/>
+                <polygon id="parallelogram-green" fill="#7fd13b" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
+                <polygon id="square-green" fill="#7fd13b" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
+                <polygon id="triangle-small-orange-left" fill="#f0ad00" points="189.484 181 250 241.516 310.516 181"/>
+                <polygon id="triangle-small-orange-right" fill="#f0ad00" points="394 264.484 333.484 325 394 385.516"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <button data-clipboard-target="#main-made-with-logo-to-heart-color">
+            <img src="clippy.svg" title="Copy to clipboard" alt="Copy to clipboard">
+          </button>
+        </div>
+      </div>
+      <div class="item">
+        <div id="main-made-with-logo-to-heart-monochrome">
+          <a href="http://elm-lang.org">
+            <svg id="made-with-logo-to-heart-monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+              <style type="text/css">
+                #made-with-logo-to-heart-monochrome polygon {
+                  transition-duration: 600ms;
+                  transition-timing-function: ease-in-out;
+                  transform-origin: 50% 50%;
+                }
+                #made-with-logo-to-heart-monochrome:hover #triangle-big-dark-blue {
+                  transform-origin: 173.758px 250px;
+                  transform: rotate(-90deg) translate(111.258px, 1.244px);
+                }
+                #made-with-logo-to-heart-monochrome:hover #triangle-medium-blue {
+                  transform: translate(-225px, 112.5px);
+                }
+                #made-with-logo-to-heart-monochrome:hover #triangle-big-blue {
+                  transform-origin: 250px 326.242px;
+                  transform: rotate(-180deg) translate(-75px, 39.984px);
+                }
+                #made-with-logo-to-heart-monochrome:hover #parallelogram-green {
+                  transform: translate(150px, 37.5px);
+                }
+                #made-with-logo-to-heart-monochrome:hover #square-green {
+                  transform: translate(-75px, 112.5px);
+                }
+                #made-with-logo-to-heart-monochrome:hover #triangle-small-orange-left  {
+                  transform-origin: 250px 211.258px;
+                  transform: translate(-38.742px, 76.242px) rotate(-90deg);
+                }
+                #made-with-logo-to-heart-monochrome:hover #triangle-small-orange-right {
+                  transform-origin: 363.742px 325px;
+                  transform: translate(-38.742px, -223.758px) rotate(90deg);
+                }
+              </style>
+              <rect width="560" height="200" fill="#60b5cc"/>
+              <text x="23.912" y="128.57" fill="#fff" font-size="81.628" font-family="Source Sans Pro">
+                <tspan x="23.912" y="128.57">Made with</tspan>
+              </text>
+              <g transform="matrix(.333 0 0 .333 377.83 16.75)" fill="#5a6378">
+                <polygon id="triangle-big-dark-blue" points="106 114.484 106 385.516 241.516 250"/>
+                <polygon id="triangle-medium-blue" points="264.484 106 394 235.516 394 106"/>
+                <polygon id="triangle-big-blue" points="250 258.484 114.484 394 385.516 394"/>
+                <polygon id="parallelogram-green" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
+                <polygon id="square-green" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
+                <polygon id="triangle-small-orange-left" points="189.484 181 250 241.516 310.516 181"/>
+                <polygon id="triangle-small-orange-right" points="394 264.484 333.484 325 394 385.516"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <button data-clipboard-target="#main-made-with-logo-to-heart-monochrome">
+            <img src="clippy.svg" title="Copy to clipboard" alt="Copy to clipboard">
+          </button>
+        </div>
+      </div>
+      <div class="item">
+        <div id="main-made-with-logo-to-red-heart-color">
+          <a href="http://elm-lang.org">
+            <svg id="made-with-logo-to-red-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+              <style type="text/css">
+                #made-with-logo-to-red-heart-color polygon {
+                  transition-duration: 600ms;
+                  transition-timing-function: ease-in-out;
+                  transform-origin: 50% 50%;
+                }
+                #made-with-logo-to-red-heart-color:hover #triangle-big-dark-blue {
+                  transform-origin: 173.758px 250px;
+                  transform: rotate(-90deg) translate(111.258px, 1.244px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #triangle-medium-blue {
+                  transform: translate(-225px, 112.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #triangle-big-blue {
+                  transform-origin: 250px 326.242px;
+                  transform: rotate(-180deg) translate(-75px, 39.984px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #parallelogram-green {
+                  transform: translate(150px, 37.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #square-green {
+                  transform: translate(-75px, 112.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #triangle-small-orange-left  {
+                  transform-origin: 250px 211.258px;
+                  transform: translate(-38.742px, 76.242px) rotate(-90deg);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-color:hover #triangle-small-orange-right {
+                  transform-origin: 363.742px 325px;
+                  transform: translate(-38.742px, -223.758px) rotate(90deg);
+                  fill: #e62a2a;
+                }
+              </style>
+              <rect width="560" height="200" fill="#fff"/>
+              <text x="23.912" y="128.57" fill="#60b5cc" font-size="81.628" font-family="Source Sans Pro">
+                <tspan x="23.912" y="128.57">Made with</tspan>
+              </text>
+              <g transform="matrix(.333 0 0 .333 377.83 16.75)">
+                <polygon id="triangle-big-dark-blue" fill="#5a6378" points="106 114.484 106 385.516 241.516 250"/>
+                <polygon id="triangle-medium-blue" fill="#60b5cc" points="264.484 106 394 235.516 394 106"/>
+                <polygon id="triangle-big-blue" fill="#60b5cc" points="250 258.484 114.484 394 385.516 394"/>
+                <polygon id="parallelogram-green" fill="#7fd13b" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
+                <polygon id="square-green" fill="#7fd13b" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
+                <polygon id="triangle-small-orange-left" fill="#f0ad00" points="189.484 181 250 241.516 310.516 181"/>
+                <polygon id="triangle-small-orange-right" fill="#f0ad00" points="394 264.484 333.484 325 394 385.516"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <button data-clipboard-target="#main-made-with-logo-to-red-heart-color">
+            <img src="clippy.svg" title="Copy to clipboard" alt="Copy to clipboard">
+          </button>
+        </div>
+      </div>
+      <div class="item">
+        <div id="main-made-with-logo-to-red-heart-monochrome">
+          <a href="http://elm-lang.org">
+            <svg id="made-with-logo-to-red-heart-monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
+              <style type="text/css">
+                #made-with-logo-to-red-heart-monochrome polygon {
+                  transition-duration: 600ms;
+                  transition-timing-function: ease-in-out;
+                  transform-origin: 50% 50%;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #triangle-big-dark-blue {
+                  transform-origin: 173.758px 250px;
+                  transform: rotate(-90deg) translate(111.258px, 1.244px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #triangle-medium-blue {
+                  transform: translate(-225px, 112.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #triangle-big-blue {
+                  transform-origin: 250px 326.242px;
+                  transform: rotate(-180deg) translate(-75px, 39.984px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #parallelogram-green {
+                  transform: translate(150px, 37.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #square-green {
+                  transform: translate(-75px, 112.5px);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #triangle-small-orange-left  {
+                  transform-origin: 250px 211.258px;
+                  transform: translate(-38.742px, 76.242px) rotate(-90deg);
+                  fill: #e62a2a;
+                }
+                #made-with-logo-to-red-heart-monochrome:hover #triangle-small-orange-right {
+                  transform-origin: 363.742px 325px;
+                  transform: translate(-38.742px, -223.758px) rotate(90deg);
+                  fill: #e62a2a;
+                }
+              </style>
+              <rect width="560" height="200" fill="#60b5cc"/>
+              <text x="23.912" y="128.57" fill="#fff" font-size="81.628" font-family="Source Sans Pro">
+                <tspan x="23.912" y="128.57">Made with</tspan>
+              </text>
+              <g transform="matrix(.333 0 0 .333 377.83 16.75)" fill="#5a6378">
+                <polygon id="triangle-big-dark-blue" points="106 114.484 106 385.516 241.516 250"/>
+                <polygon id="triangle-medium-blue" points="264.484 106 394 235.516 394 106"/>
+                <polygon id="triangle-big-blue" points="250 258.484 114.484 394 385.516 394"/>
+                <polygon id="parallelogram-green" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
+                <polygon id="square-green" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
+                <polygon id="triangle-small-orange-left" points="189.484 181 250 241.516 310.516 181"/>
+                <polygon id="triangle-small-orange-right" points="394 264.484 333.484 325 394 385.516"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div>
+          <button data-clipboard-target="#main-made-with-logo-to-red-heart-monochrome">
+            <img src="clippy.svg" title="Copy to clipboard" alt="Copy to clipboard">
+          </button>
+        </div>
+      </div>
     </div>
-    <div style="width:224px; height:80px">
-      <a href="http://elm-lang.org">
-        <svg id="made-with-logo-to-heart-monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
-          <style type="text/css">
-            #made-with-logo-to-heart-monochrome polygon {
-              transition-duration: 600ms;
-              transition-timing-function: ease-in-out;
-              transform-origin: 50% 50%;
-            }
-            #made-with-logo-to-heart-monochrome:hover #triangle-big-dark-blue {
-              transform-origin: 173.758px 250px;
-              transform: rotate(-90deg) translate(111.258px, 1.244px);
-            }
-            #made-with-logo-to-heart-monochrome:hover #triangle-medium-blue {
-              transform: translate(-225px, 112.5px);
-            }
-            #made-with-logo-to-heart-monochrome:hover #triangle-big-blue {
-              transform-origin: 250px 326.242px;
-              transform: rotate(-180deg) translate(-75px, 39.984px);
-            }
-            #made-with-logo-to-heart-monochrome:hover #parallelogram-green {
-              transform: translate(150px, 37.5px);
-            }
-            #made-with-logo-to-heart-monochrome:hover #square-green {
-              transform: translate(-75px, 112.5px);
-            }
-            #made-with-logo-to-heart-monochrome:hover #triangle-small-orange-left  {
-              transform-origin: 250px 211.258px;
-              transform: translate(-38.742px, 76.242px) rotate(-90deg);
-            }
-            #made-with-logo-to-heart-monochrome:hover #triangle-small-orange-right {
-              transform-origin: 363.742px 325px;
-              transform: translate(-38.742px, -223.758px) rotate(90deg);
-            }
-          </style>
-          <rect width="560" height="200" fill="#60b5cc"/>
-          <text x="23.912" y="128.57" fill="#fff" font-size="81.628" font-family="Source Sans Pro">
-            <tspan x="23.912" y="128.57">Made with</tspan>
-          </text>
-          <g transform="matrix(.333 0 0 .333 377.83 16.75)" fill="#5a6378">
-            <polygon id="triangle-big-dark-blue" points="106 114.484 106 385.516 241.516 250"/>
-            <polygon id="triangle-medium-blue" points="264.484 106 394 235.516 394 106"/>
-            <polygon id="triangle-big-blue" points="250 258.484 114.484 394 385.516 394"/>
-            <polygon id="parallelogram-green" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
-            <polygon id="square-green" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
-            <polygon id="triangle-small-orange-left" points="189.484 181 250 241.516 310.516 181"/>
-            <polygon id="triangle-small-orange-right" points="394 264.484 333.484 325 394 385.516"/>
-          </g>
-        </svg>
-      </a>
-    </div>
-    <div style="width:224px; height:80px">
-      <a href="http://elm-lang.org">
-        <svg id="made-with-logo-to-red-heart-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
-          <style type="text/css">
-            #made-with-logo-to-red-heart-color polygon {
-              transition-duration: 600ms;
-              transition-timing-function: ease-in-out;
-              transform-origin: 50% 50%;
-            }
-            #made-with-logo-to-red-heart-color:hover #triangle-big-dark-blue {
-              transform-origin: 173.758px 250px;
-              transform: rotate(-90deg) translate(111.258px, 1.244px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #triangle-medium-blue {
-              transform: translate(-225px, 112.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #triangle-big-blue {
-              transform-origin: 250px 326.242px;
-              transform: rotate(-180deg) translate(-75px, 39.984px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #parallelogram-green {
-              transform: translate(150px, 37.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #square-green {
-              transform: translate(-75px, 112.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #triangle-small-orange-left  {
-              transform-origin: 250px 211.258px;
-              transform: translate(-38.742px, 76.242px) rotate(-90deg);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-color:hover #triangle-small-orange-right {
-              transform-origin: 363.742px 325px;
-              transform: translate(-38.742px, -223.758px) rotate(90deg);
-              fill: #e62a2a;
-            }
-          </style>
-          <rect width="560" height="200" fill="#fff"/>
-          <text x="23.912" y="128.57" fill="#60b5cc" font-size="81.628" font-family="Source Sans Pro">
-            <tspan x="23.912" y="128.57">Made with</tspan>
-          </text>
-          <g transform="matrix(.333 0 0 .333 377.83 16.75)">
-            <polygon id="triangle-big-dark-blue" fill="#5a6378" points="106 114.484 106 385.516 241.516 250"/>
-            <polygon id="triangle-medium-blue" fill="#60b5cc" points="264.484 106 394 235.516 394 106"/>
-            <polygon id="triangle-big-blue" fill="#60b5cc" points="250 258.484 114.484 394 385.516 394"/>
-            <polygon id="parallelogram-green" fill="#7fd13b" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
-            <polygon id="square-green" fill="#7fd13b" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
-            <polygon id="triangle-small-orange-left" fill="#f0ad00" points="189.484 181 250 241.516 310.516 181"/>
-            <polygon id="triangle-small-orange-right" fill="#f0ad00" points="394 264.484 333.484 325 394 385.516"/>
-          </g>
-        </svg>
-      </a>
-    </div>
-    <div style="width:224px; height:80px">
-      <a href="http://elm-lang.org">
-        <svg id="made-with-logo-to-red-heart-monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200">
-          <style type="text/css">
-            #made-with-logo-to-red-heart-monochrome polygon {
-              transition-duration: 600ms;
-              transition-timing-function: ease-in-out;
-              transform-origin: 50% 50%;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #triangle-big-dark-blue {
-              transform-origin: 173.758px 250px;
-              transform: rotate(-90deg) translate(111.258px, 1.244px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #triangle-medium-blue {
-              transform: translate(-225px, 112.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #triangle-big-blue {
-              transform-origin: 250px 326.242px;
-              transform: rotate(-180deg) translate(-75px, 39.984px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #parallelogram-green {
-              transform: translate(150px, 37.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #square-green {
-              transform: translate(-75px, 112.5px);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #triangle-small-orange-left  {
-              transform-origin: 250px 211.258px;
-              transform: translate(-38.742px, 76.242px) rotate(-90deg);
-              fill: #e62a2a;
-            }
-            #made-with-logo-to-red-heart-monochrome:hover #triangle-small-orange-right {
-              transform-origin: 363.742px 325px;
-              transform: translate(-38.742px, -223.758px) rotate(90deg);
-              fill: #e62a2a;
-            }
-          </style>
-          <rect width="560" height="200" fill="#60b5cc"/>
-          <text x="23.912" y="128.57" fill="#fff" font-size="81.628" font-family="Source Sans Pro">
-            <tspan x="23.912" y="128.57">Made with</tspan>
-          </text>
-          <g transform="matrix(.333 0 0 .333 377.83 16.75)" fill="#5a6378">
-            <polygon id="triangle-big-dark-blue" points="106 114.484 106 385.516 241.516 250"/>
-            <polygon id="triangle-medium-blue" points="264.484 106 394 235.516 394 106"/>
-            <polygon id="triangle-big-blue" points="250 258.484 114.484 394 385.516 394"/>
-            <polygon id="parallelogram-green" points="114.484 106 177.484 169 310.516 169 247.516 106"/>
-            <polygon id="square-green" points="325 183.484 258.484 250 325 316.516 391.516 250"/>
-            <polygon id="triangle-small-orange-left" points="189.484 181 250 241.516 310.516 181"/>
-            <polygon id="triangle-small-orange-right" points="394 264.484 333.484 325 394 385.516"/>
-          </g>
-        </svg>
-      </a>
-    </div>
+    <script src="clipboard.min.js"></script>
+    <script>
+      new Clipboard('button', {
+        text: function(trigger) {
+          var id = trigger.getAttribute('data-clipboard-target').substring(1);
+          return document.getElementById(id).outerHTML;
+        }
+      });
+    </script>
   </body>
 </html>
